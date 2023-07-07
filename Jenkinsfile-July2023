@@ -12,14 +12,12 @@ node{
   stage('4UploadArtifacts'){
     sh "${mavenHome}/bin/mvn deploy"
   }
-/*
   stage('5Deploy'){
-    deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://54.166.85.32:8177/')], contextPath: null, war: 'target/*war'
+    deploy adapters: [tomcat9(credentialsId: 'dd376423-711c-4426-ba31-fb99c9f4b7fc', path: '', url: 'http://3.131.38.92:8177/')], contextPath: null, war: 'target/*war'
   }
   stage('6Notification'){
     emailext body: '''Hi Team,
 Build status
 Landmark Technologies''', recipientProviders: [developers(), contributor()], subject: 'build status', to: 'developers'
   }
-*/
 }
