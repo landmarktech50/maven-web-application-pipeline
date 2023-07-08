@@ -95,19 +95,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.188.143.16:8081/repository/ebay-releases/</url>
+	      <url>http://3.141.193.173:8081/repository/zara-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.188.143.16:8081/repository/ebay-snapshots/</url>
+	      <url>http://3.141.193.173:8081/repository/zara-snaphot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>twitter</finalName>
+		<finalName>zara</finalName>
 		
 		<plugins>
 			<plugin>
